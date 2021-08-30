@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.techprimers.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.techprimers.grpc";
+
+service GreetingService {
+  rpc greeting(GreetingRequest) returns (GreetingResponse) {
+  }
+}
+
+message GreetingRequest {
+  string message = 1;
+}
+
+message GreetingResponse {
+  string message = 1;
+}
