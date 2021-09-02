@@ -7,5 +7,6 @@
     <modules>
         <module>greeting-common</module>
         <module>greeting-service</module>
+        <module>greeting-client</module>
     </modules>
 </project>
