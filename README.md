@@ -9,5 +9,10 @@ This project covers usage of gRPC in a Spring Boot application
   
 ```
 
+## Commands used for client
+```
+curl 'http://localhost:8080/greeting?message=Hello from client'
+```
+
 ## Reference
 - [Mike's Spring Boot gRPC Starter](https://yidongnan.github.io/grpc-spring-boot-starter/en/server/getting-started.html)
